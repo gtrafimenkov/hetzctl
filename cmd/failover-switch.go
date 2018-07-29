@@ -13,7 +13,7 @@ func init() {
 	cmd := &cobra.Command{
 		Use:   "switch",
 		Short: "Route traffic to another server",
-		Long:  "This commands routes trafic coming to FAILOVER_IP to the server with NEW_ACTIVE_IP",
+		Long:  "This commands routes traffic coming to FAILOVER_IP to the server with NEW_ACTIVE_IP",
 	}
 	requireExactArgs(cmd, "FAILOVER_IP NEW_ACTIVE_IP")
 	failoverCmd.AddCommand(cmd)
