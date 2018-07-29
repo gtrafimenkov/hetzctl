@@ -19,7 +19,7 @@ $ hetzctl server list
 
 ## Configuration
 
-You need to provide username and password for accessing [Hetzner API]((https://robot.your-server.de/doc/webservice/en.html).
+You need to provide username and password for accessing [Hetzner API](https://robot.your-server.de/doc/webservice/en.html).
 
 There are few methods to do so:
   - using configuration file `~/.hetzctl.yaml`
